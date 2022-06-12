@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.icon-area ul{
+    list-style: none;
+}
+
+.icon-area ul li{
+    display: inline;
+}
+
+.icon-area ul li a{
+    font-size: 40px;
+    background-color: rgb(3, 250, 168);
+    color: #fff;
+    padding: 30px 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.icon-area ul li a:hover{
+    background-color: #fff;
+    color: blue;
+    transition: 2s;
+    transform: rotate(360deg);
+}
